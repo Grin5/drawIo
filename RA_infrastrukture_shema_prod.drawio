@@ -319,7 +319,7 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-74" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=50;" value="Tennant" vertex="1">
           <mxGeometry height="1410" width="1710" x="-70" y="-180" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-75" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;color: rgb(237, 237, 237); font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;Атом.Мост&lt;/span&gt;&amp;nbsp;migration" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-75" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Атом.Мост migration&lt;/span&gt;" vertex="1">
           <mxGeometry height="120" width="180" x="980" y="90" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-76" parent="5V7DCpTSDIfexpNecDCF-75" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1nsi-s-pg02" vertex="1">
