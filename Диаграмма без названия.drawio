@@ -1,14 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Архитектура" id="Qeptlome85MQxjCoNTjR">
-    <mxGraphModel dx="4959" dy="3391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2204" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5V7DCpTSDIfexpNecDCF-1" edge="1" parent="1" source="5V7DCpTSDIfexpNecDCF-119" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;flowAnimation=0;jumpStyle=arc;" target="5V7DCpTSDIfexpNecDCF-75">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1258" y="-120" />
+              <mxPoint x="1045" y="-120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-2" edge="1" parent="1" source="5V7DCpTSDIfexpNecDCF-119" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;flowAnimation=0;">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="-260" />
+              <mxPoint x="1310" y="-260" />
+            </Array>
             <mxPoint x="1310" y="-50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -20,7 +29,7 @@
             <mxPoint x="1130" y="-410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="ИСИГБП" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="&lt;span id=&quot;1769288911779005_c&quot; class=&quot;text&quot; dir=&quot;auto&quot; data-copyable=&quot;true&quot; style=&quot;color: currentcolor !important;&quot;&gt;&lt;p&gt;ЕСИК БП 2.0 (ИН)&lt;/p&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="220" x="892" y="-440" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=left;spacingLeft=8;" value="Легенда: VIP — виртуальный IP &lt;br&gt;Пунктир — failover/управление Сплошные стрелки — трафик/данные" vertex="1">
@@ -62,7 +71,7 @@
             <mxPoint x="190" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Кластер FRA (Tomcat)&lt;/span&gt;" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Кластер FRA (&lt;/span&gt;&lt;span style=&quot;color: currentcolor; background-color: transparent; font-weight: normal;&quot;&gt;Libercat&lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;)&lt;/span&gt;" vertex="1">
           <mxGeometry height="330" width="620" x="190" y="480" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-12" parent="5V7DCpTSDIfexpNecDCF-11" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;1nsi-s-mdm01n1&lt;/span&gt;" vertex="1">
@@ -183,7 +192,7 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-44" edge="1" parent="1" source="5V7DCpTSDIfexpNecDCF-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;flowAnimation=0;jumpStyle=arc;" target="5V7DCpTSDIfexpNecDCF-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-45" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Nifi Cluster ZK embedded" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-45" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=28;" value="&lt;span style=&quot;color: currentcolor; background-color: transparent;&quot;&gt;Атом.Мост&amp;nbsp;&lt;/span&gt;Cluster&lt;br&gt;&amp;nbsp;Zookeeper embedded" vertex="1">
           <mxGeometry height="295" width="400" x="1160" y="-47.5" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-46" parent="5V7DCpTSDIfexpNecDCF-45" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;1nsi-s-etl01n2&lt;/span&gt;" vertex="1">
@@ -280,7 +289,7 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-68" parent="5V7DCpTSDIfexpNecDCF-66" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1nsi-s-rep01n1 (Master)" vertex="1">
           <mxGeometry height="70" width="150" x="11" y="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-69" edge="1" parent="5V7DCpTSDIfexpNecDCF-66" source="5V7DCpTSDIfexpNecDCF-68" style="endArrow=block;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;" target="5V7DCpTSDIfexpNecDCF-67" value="Streaming replication">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-69" edge="1" parent="5V7DCpTSDIfexpNecDCF-66" source="5V7DCpTSDIfexpNecDCF-68" style="endArrow=block;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;startArrow=block;startFill=1;" target="5V7DCpTSDIfexpNecDCF-67" value="Streaming replication">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-70" edge="1" parent="1" source="5V7DCpTSDIfexpNecDCF-72" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;flowAnimation=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="5V7DCpTSDIfexpNecDCF-66">
@@ -304,7 +313,7 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-72" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Etcd Cluster" vertex="1">
           <mxGeometry height="157" width="160" x="1470" y="-487" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-73" parent="5V7DCpTSDIfexpNecDCF-72" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="ЕTCD Cluster" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-73" parent="5V7DCpTSDIfexpNecDCF-72" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Еtcd Cluster" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="57" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-74" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=50;" value="Tennant" vertex="1">
@@ -317,7 +326,7 @@
           <mxGeometry height="60" width="139" x="21" y="40" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-77" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;CI/CD Runner&lt;/span&gt;" vertex="1">
-          <mxGeometry height="130" width="200" x="110" y="80" as="geometry" />
+          <mxGeometry height="120" width="200" x="110" y="80" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-78" parent="5V7DCpTSDIfexpNecDCF-77" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1nsi-s-grun01" vertex="1">
           <mxGeometry height="60" width="160" x="20" y="40" as="geometry" />
@@ -325,10 +334,10 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-79" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="HAProxy" vertex="1">
           <mxGeometry height="260" width="170" x="770" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-80" parent="5V7DCpTSDIfexpNecDCF-79" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1nsi-s-lb01n1" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-80" parent="5V7DCpTSDIfexpNecDCF-79" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1nsi-s-lb01n1&lt;br&gt;(Master)" vertex="1">
           <mxGeometry height="60" width="140" x="15" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-81" parent="5V7DCpTSDIfexpNecDCF-79" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1nsi-s-lb01n2" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-81" parent="5V7DCpTSDIfexpNecDCF-79" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1nsi-s-lb01n2&lt;br&gt;(Slave)" vertex="1">
           <mxGeometry height="60" width="140" x="15" y="170" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-82" edge="1" parent="5V7DCpTSDIfexpNecDCF-79" source="5V7DCpTSDIfexpNecDCF-80" style="endArrow=block;html=1;strokeColor=#000000;dashed=1;" target="5V7DCpTSDIfexpNecDCF-81" value="Keepalived (VRRP)">
@@ -345,6 +354,7 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-85" edge="1" parent="5V7DCpTSDIfexpNecDCF-74" source="5V7DCpTSDIfexpNecDCF-84" style="endArrow=block;html=1;strokeColor=#000000;startArrow=block;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="5V7DCpTSDIfexpNecDCF-79" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="560" y="390" />
               <mxPoint x="560" y="480" />
             </Array>
           </mxGeometry>
