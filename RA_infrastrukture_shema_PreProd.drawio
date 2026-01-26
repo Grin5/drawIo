@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Архитектура" id="Qeptlome85MQxjCoNTjR">
-    <mxGraphModel dx="2252" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="2280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,7 +140,7 @@
             <mxPoint x="386" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;PostgreSQL (Patroni)&lt;/span&gt;" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;PostgreSQL PRO (Patroni)&lt;/span&gt;" vertex="1">
           <mxGeometry height="280" width="180" x="1410" y="370" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-37" edge="1" parent="5V7DCpTSDIfexpNecDCF-36" source="5V7DCpTSDIfexpNecDCF-38" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;flowAnimation=0;dashed=1;dashPattern=8 8;" target="5V7DCpTSDIfexpNecDCF-39" value="">
@@ -247,7 +247,7 @@
             <mxPoint x="760" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-61" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Oensearch Cluster&lt;/span&gt;" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-61" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Opensearch Cluster&lt;/span&gt;" vertex="1">
           <mxGeometry height="210" width="449" x="921" y="900" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-62" edge="1" parent="1" source="5V7DCpTSDIfexpNecDCF-118" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;flowAnimation=0;">
