@@ -66,14 +66,17 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-78" parent="5V7DCpTSDIfexpNecDCF-77" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1ppnsi-s-grun01" vertex="1">
           <mxGeometry height="60" width="160" x="20" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-79" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="HAProxy" vertex="1">
-          <mxGeometry height="120" width="170" x="540" y="330" as="geometry" />
+        <mxCell id="5V7DCpTSDIfexpNecDCF-79" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;font-weight: 400; background-color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Minio&lt;/span&gt;" vertex="1">
+          <mxGeometry height="220" width="170" x="540" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-80" parent="5V7DCpTSDIfexpNecDCF-79" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1ppnsi-s-lb01n1&lt;br&gt;(Master)" vertex="1">
-          <mxGeometry height="60" width="140" x="15" y="40" as="geometry" />
+        <mxCell id="5V7DCpTSDIfexpNecDCF-103" parent="5V7DCpTSDIfexpNecDCF-79" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;1tnsi-s-fs01&lt;/span&gt;" vertex="1">
+          <mxGeometry height="180" width="90" x="40" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-83" parent="5V7DCpTSDIfexpNecDCF-74" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;S3 API&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="400" y="410" as="geometry" />
+        <mxCell id="5V7DCpTSDIfexpNecDCF-104" parent="5V7DCpTSDIfexpNecDCF-103" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=11;" value="Minio" vertex="1">
+          <mxGeometry height="60" width="68" x="11" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J_QSokqzUJjtmG5J9I6s-44" parent="5V7DCpTSDIfexpNecDCF-103" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=11;" value="HAProxy" vertex="1">
+          <mxGeometry height="60" width="68" x="11" y="110" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-87" edge="1" parent="5V7DCpTSDIfexpNecDCF-74" source="5V7DCpTSDIfexpNecDCF-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="5V7DCpTSDIfexpNecDCF-79">
           <mxGeometry relative="1" as="geometry">
@@ -95,24 +98,6 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-102" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Minio&lt;/span&gt;" vertex="1">
-          <mxGeometry height="180" width="120" x="50" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-103" parent="5V7DCpTSDIfexpNecDCF-102" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;1tnsi-s-fs01&lt;/span&gt;" vertex="1">
-          <mxGeometry height="127.5" width="90" x="9.5" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-104" parent="5V7DCpTSDIfexpNecDCF-103" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=11;" value="Minio" vertex="1">
-          <mxGeometry height="60" width="68" x="11" y="47.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-114" edge="1" parent="5V7DCpTSDIfexpNecDCF-74" source="5V7DCpTSDIfexpNecDCF-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;flowAnimation=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="5V7DCpTSDIfexpNecDCF-102">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="110" y="390" />
-            </Array>
-            <mxPoint x="560" y="300" as="sourcePoint" />
-            <mxPoint x="360" y="1268" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-117" edge="1" parent="5V7DCpTSDIfexpNecDCF-74" source="5V7DCpTSDIfexpNecDCF-75" style="endArrow=block;html=1;strokeColor=#000000;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5V7DCpTSDIfexpNecDCF-36" value="чтение/запись">
           <mxGeometry relative="1" x="0.1107" as="geometry">
             <mxPoint as="offset" />
@@ -123,7 +108,7 @@
             <mxPoint x="1070" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-61" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Oensearch&lt;/span&gt;" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-61" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Opensearch&lt;/span&gt;" vertex="1">
           <mxGeometry height="180" width="119" x="320" y="530" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-91" parent="5V7DCpTSDIfexpNecDCF-61" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;1tnsi-s-svc01&lt;/span&gt;" vertex="1">
@@ -138,7 +123,7 @@
         <mxCell id="5V7DCpTSDIfexpNecDCF-68" parent="5V7DCpTSDIfexpNecDCF-66" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1tnsi-s-rep01" vertex="1">
           <mxGeometry height="70" width="150" x="11" y="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="5V7DCpTSDIfexpNecDCF-36" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;PostgreSQL (Patroni)&lt;/span&gt;" vertex="1">
+        <mxCell id="5V7DCpTSDIfexpNecDCF-36" parent="5V7DCpTSDIfexpNecDCF-74" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;PostgreSQL PRO (Patroni)&lt;/span&gt;" vertex="1">
           <mxGeometry height="140" width="180" x="980" y="620" as="geometry" />
         </mxCell>
         <mxCell id="5V7DCpTSDIfexpNecDCF-39" parent="5V7DCpTSDIfexpNecDCF-36" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" value="1tnsi-s-pg01" vertex="1">
