@@ -65,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-B8cQL_VIDboUj_mSrfL-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FE" vertex="1">
-          <mxGeometry height="60" width="120" x="-530" y="30" as="geometry" />
+          <mxGeometry height="60" width="120" x="-535" y="80" as="geometry" />
         </mxCell>
         <mxCell id="-B8cQL_VIDboUj_mSrfL-23" edge="1" parent="1" source="-B8cQL_VIDboUj_mSrfL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
@@ -73,9 +73,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-B8cQL_VIDboUj_mSrfL-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BE" vertex="1">
-          <mxGeometry height="60" width="120" x="-340" y="30" as="geometry" />
+          <mxGeometry height="60" width="120" x="-345" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="-B8cQL_VIDboUj_mSrfL-25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-B8cQL_VIDboUj_mSrfL-24">
+        <mxCell id="-B8cQL_VIDboUj_mSrfL-25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-379.9999999999998" y="240.0000000000001" as="sourcePoint" />
           </mxGeometry>
