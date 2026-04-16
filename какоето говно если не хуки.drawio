@@ -26,7 +26,7 @@
         <mxCell id="zkc7eF_VgklfKbncLZSH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ЧТО то тут произошло с записью" vertex="1">
           <mxGeometry height="60" width="120" x="30" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="zkc7eF_VgklfKbncLZSH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="zkc7eF_VgklfKbncLZSH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NiFi" vertex="1">
           <mxGeometry height="60" width="120" x="470" y="180" as="geometry" />
         </mxCell>
         <mxCell id="zkc7eF_VgklfKbncLZSH-8" edge="1" parent="1" source="zkc7eF_VgklfKbncLZSH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zkc7eF_VgklfKbncLZSH-13">
@@ -72,7 +72,7 @@
         <mxCell id="zkc7eF_VgklfKbncLZSH-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GID или LID" vertex="1">
           <mxGeometry height="60" width="120" x="470" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="zkc7eF_VgklfKbncLZSH-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="zkc7eF_VgklfKbncLZSH-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NiFi" vertex="1">
           <mxGeometry height="60" width="120" x="630" y="290" as="geometry" />
         </mxCell>
         <mxCell id="zkc7eF_VgklfKbncLZSH-24" edge="1" parent="1" source="zkc7eF_VgklfKbncLZSH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zkc7eF_VgklfKbncLZSH-23">
@@ -151,17 +151,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkc7eF_VgklfKbncLZSH-43" edge="1" parent="1" source="zkc7eF_VgklfKbncLZSH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="zkc7eF_VgklfKbncLZSH-48">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="530" y="600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zkc7eF_VgklfKbncLZSH-47" connectable="0" parent="zkc7eF_VgklfKbncLZSH-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3" vertex="1">
-          <mxGeometry relative="1" x="-0.2302" y="1" as="geometry">
-            <mxPoint x="-47" y="-1" as="offset" />
-          </mxGeometry>
+        <mxCell id="Plgex8TxuwilYHzlv10b-1" edge="1" parent="1" source="zkc7eF_VgklfKbncLZSH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zkc7eF_VgklfKbncLZSH-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zkc7eF_VgklfKbncLZSH-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="kafka cons" vertex="1">
           <mxGeometry height="60" width="120" x="470" y="520" as="geometry" />
@@ -170,10 +161,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zkc7eF_VgklfKbncLZSH-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Invoke HTTP" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="460" as="geometry" />
+          <mxGeometry height="60" width="120" x="240" y="400" as="geometry" />
         </mxCell>
         <mxCell id="zkc7eF_VgklfKbncLZSH-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="jolt" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="570" as="geometry" />
+          <mxGeometry height="60" width="120" x="240" y="520" as="geometry" />
         </mxCell>
         <mxCell id="zkc7eF_VgklfKbncLZSH-49" edge="1" parent="1" source="zkc7eF_VgklfKbncLZSH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zkc7eF_VgklfKbncLZSH-45">
           <mxGeometry relative="1" as="geometry">
