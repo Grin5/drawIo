@@ -233,8 +233,10 @@
         <mxCell id="yVEPRnjxDkFHyxlPWroM-5" edge="1" parent="yVEPRnjxDkFHyxlPWroM-1" source="yVEPRnjxDkFHyxlPWroM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yVEPRnjxDkFHyxlPWroM-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yVEPRnjxDkFHyxlPWroM-8" edge="1" parent="1" source="yVEPRnjxDkFHyxlPWroM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yVEPRnjxDkFHyxlPWroM-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yVEPRnjxDkFHyxlPWroM-8" edge="1" parent="1" source="yVEPRnjxDkFHyxlPWroM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yVEPRnjxDkFHyxlPWroM-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Формирования квитанции" vertex="1">
           <mxGeometry height="70" width="120" x="490" y="380" as="geometry" />
