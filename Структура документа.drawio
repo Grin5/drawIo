@@ -1,9 +1,100 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="kMrERhlUnqadbtUeogZ2">
-    <mxGraphModel>
+    <mxGraphModel dx="2244" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="twAy5U4551W0SZhd6pNk-11" edge="1" parent="1" source="twAy5U4551W0SZhd6pNk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="twAy5U4551W0SZhd6pNk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-35" edge="1" parent="1" source="twAy5U4551W0SZhd6pNk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="twAy5U4551W0SZhd6pNk-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Core cluster" vertex="1">
+          <mxGeometry height="430" width="260" x="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-6" edge="1" parent="twAy5U4551W0SZhd6pNk-1" source="twAy5U4551W0SZhd6pNk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="twAy5U4551W0SZhd6pNk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-3" parent="twAy5U4551W0SZhd6pNk-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Opensearch" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-4" parent="twAy5U4551W0SZhd6pNk-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Данные боевые БД&lt;br&gt;Patroni + Postgres&lt;br&gt;master/slave&lt;br&gt;+ VIP&lt;br&gt;Ставят инженеры PG" vertex="1">
+          <mxGeometry height="90" width="120" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-7" parent="twAy5U4551W0SZhd6pNk-1" style="rounded=0;whiteSpace=wrap;html=1;" value="MDM" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-33" edge="1" parent="twAy5U4551W0SZhd6pNk-1" source="twAy5U4551W0SZhd6pNk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="twAy5U4551W0SZhd6pNk-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-32" parent="twAy5U4551W0SZhd6pNk-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Аналитическая БД&lt;br&gt;Patroni + Postgres&lt;br&gt;master/slave&lt;br&gt;+ VIP&lt;br&gt;Ставят инженеры PG" vertex="1">
+          <mxGeometry height="90" width="120" x="70" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-9" edge="1" parent="twAy5U4551W0SZhd6pNk-1" source="twAy5U4551W0SZhd6pNk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="twAy5U4551W0SZhd6pNk-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Other" vertex="1">
+          <mxGeometry height="400" width="240" x="310" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-15" edge="1" parent="twAy5U4551W0SZhd6pNk-2" source="twAy5U4551W0SZhd6pNk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="twAy5U4551W0SZhd6pNk-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-12" parent="twAy5U4551W0SZhd6pNk-2" style="rounded=0;whiteSpace=wrap;html=1;" value="haproxy" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-16" edge="1" parent="twAy5U4551W0SZhd6pNk-2" source="twAy5U4551W0SZhd6pNk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="twAy5U4551W0SZhd6pNk-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-13" parent="twAy5U4551W0SZhd6pNk-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Minio" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-14" parent="twAy5U4551W0SZhd6pNk-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Атом.Мост(nifi)" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-18" edge="1" parent="1" source="twAy5U4551W0SZhd6pNk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="twAy5U4551W0SZhd6pNk-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="RedOS" vertex="1">
+          <mxGeometry height="380" width="260" x="-80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-20" edge="1" parent="twAy5U4551W0SZhd6pNk-19" source="twAy5U4551W0SZhd6pNk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-21" parent="twAy5U4551W0SZhd6pNk-19" style="rounded=0;whiteSpace=wrap;html=1;" value="Opensearch" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-22" edge="1" parent="twAy5U4551W0SZhd6pNk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="twAy5U4551W0SZhd6pNk-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-31" parent="twAy5U4551W0SZhd6pNk-19" style="rounded=0;whiteSpace=wrap;html=1;" value="Minio" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Astra" vertex="1">
+          <mxGeometry height="400" width="260" x="-80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-26" edge="1" parent="twAy5U4551W0SZhd6pNk-25" source="twAy5U4551W0SZhd6pNk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="twAy5U4551W0SZhd6pNk-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-27" parent="twAy5U4551W0SZhd6pNk-25" style="rounded=0;whiteSpace=wrap;html=1;" value="haproxy" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-28" edge="1" parent="twAy5U4551W0SZhd6pNk-25" source="twAy5U4551W0SZhd6pNk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="twAy5U4551W0SZhd6pNk-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-29" parent="twAy5U4551W0SZhd6pNk-25" style="rounded=0;whiteSpace=wrap;html=1;" value="Patroni + Postgres&lt;br&gt;master/slave&lt;br&gt;+ VIP&lt;br&gt;Ставят инженеры PG" vertex="1">
+          <mxGeometry height="100" width="120" x="70" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-30" parent="twAy5U4551W0SZhd6pNk-25" style="rounded=0;whiteSpace=wrap;html=1;" value="Атом.Мост(nifi)" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="twAy5U4551W0SZhd6pNk-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="single node" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="255" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
