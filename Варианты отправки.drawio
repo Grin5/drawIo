@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P6D8puHLwcEi16EmegXC-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=light-dark(#000000,#E5CCFF);" value="" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=light-dark(#B266FF,#E5CCFF);" value="" vertex="1">
           <mxGeometry height="640" width="810" x="170" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="P6D8puHLwcEi16EmegXC-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=light-dark(#000000,#99FFFF);" value="" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=light-dark(#1E1EA1,#E5CCFF);" value="" vertex="1">
           <mxGeometry height="270" width="810" x="170" y="35" as="geometry" />
         </mxCell>
         <mxCell id="P6D8puHLwcEi16EmegXC-5" edge="1" parent="1" source="P6D8puHLwcEi16EmegXC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P6D8puHLwcEi16EmegXC-75">
@@ -18,7 +18,7 @@
             <mxPoint x="200" y="110.02857142857135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6D8puHLwcEi16EmegXC-6" connectable="0" parent="P6D8puHLwcEi16EmegXC-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=light-dark(#FFFFFF,#FFFFCC);fontColor=light-dark(#000000,#000000);" value="1 вариант" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-6" connectable="0" parent="P6D8puHLwcEi16EmegXC-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=light-dark(#FFE6CC,#FFFFCC);fontColor=light-dark(#000000,#000000);" value="1 вариант" vertex="1">
           <mxGeometry relative="1" x="-0.1337" y="-1" as="geometry">
             <mxPoint x="-10" y="-1" as="offset" />
           </mxGeometry>
@@ -64,7 +64,7 @@
             <mxPoint x="190" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6D8puHLwcEi16EmegXC-15" connectable="0" parent="P6D8puHLwcEi16EmegXC-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFCC);" value="2 вариант" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-15" connectable="0" parent="P6D8puHLwcEi16EmegXC-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFE6CC,#FFFFCC);" value="2 вариант" vertex="1">
           <mxGeometry relative="1" x="-0.297" as="geometry">
             <mxPoint x="-93" as="offset" />
           </mxGeometry>
