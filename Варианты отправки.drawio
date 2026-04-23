@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="yxf4RP_L1wYa110Znsxm">
-    <mxGraphModel dx="2244" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2881" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P6D8puHLwcEi16EmegXC-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=light-dark(#000000,#E5CCFF);" value="" vertex="1">
           <mxGeometry height="640" width="810" x="170" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="P6D8puHLwcEi16EmegXC-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=light-dark(#000000,#99FFFF);" value="" vertex="1">
           <mxGeometry height="270" width="810" x="170" y="35" as="geometry" />
         </mxCell>
         <mxCell id="P6D8puHLwcEi16EmegXC-5" edge="1" parent="1" source="P6D8puHLwcEi16EmegXC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P6D8puHLwcEi16EmegXC-75">
@@ -18,7 +18,7 @@
             <mxPoint x="200" y="110.02857142857135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6D8puHLwcEi16EmegXC-6" connectable="0" parent="P6D8puHLwcEi16EmegXC-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 вариант" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-6" connectable="0" parent="P6D8puHLwcEi16EmegXC-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=light-dark(#FFFFFF,#FFFFCC);fontColor=light-dark(#000000,#000000);" value="1 вариант" vertex="1">
           <mxGeometry relative="1" x="-0.1337" y="-1" as="geometry">
             <mxPoint x="-10" y="-1" as="offset" />
           </mxGeometry>
@@ -29,7 +29,7 @@
         <mxCell id="yVEPRnjxDkFHyxlPWroM-14" edge="1" parent="1" source="P6D8puHLwcEi16EmegXC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P6D8puHLwcEi16EmegXC-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yVEPRnjxDkFHyxlPWroM-15" connectable="0" parent="yVEPRnjxDkFHyxlPWroM-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Передача данных&lt;br&gt;в формате UMDM&lt;br&gt;для трансформации" vertex="1">
+        <mxCell id="yVEPRnjxDkFHyxlPWroM-15" connectable="0" parent="yVEPRnjxDkFHyxlPWroM-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Передача данных&lt;br&gt;в формате UMDM&lt;br&gt;для трансформации" vertex="1">
           <mxGeometry relative="1" x="-0.3725" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -64,7 +64,7 @@
             <mxPoint x="190" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6D8puHLwcEi16EmegXC-15" connectable="0" parent="P6D8puHLwcEi16EmegXC-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 вариант" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-15" connectable="0" parent="P6D8puHLwcEi16EmegXC-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFCC);" value="2 вариант" vertex="1">
           <mxGeometry relative="1" x="-0.297" as="geometry">
             <mxPoint x="-93" as="offset" />
           </mxGeometry>
@@ -119,7 +119,7 @@
             <mxPoint x="1180" y="804.8095238095239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yVEPRnjxDkFHyxlPWroM-18" connectable="0" parent="yVEPRnjxDkFHyxlPWroM-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Передача данных&lt;br&gt;в формате UMDM&lt;br&gt;для трансформации" vertex="1">
+        <mxCell id="yVEPRnjxDkFHyxlPWroM-18" connectable="0" parent="yVEPRnjxDkFHyxlPWroM-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Передача данных&lt;br&gt;в формате UMDM&lt;br&gt;для трансформации" vertex="1">
           <mxGeometry relative="1" x="-0.4161" as="geometry">
             <mxPoint x="-26" as="offset" />
           </mxGeometry>
