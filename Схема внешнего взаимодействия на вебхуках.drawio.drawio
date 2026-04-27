@@ -80,7 +80,7 @@
           <mxGeometry height="147" width="160" x="530" y="520" as="geometry" />
         </mxCell>
         <mxCell id="SfMRhRDj13DmYwGKPPzU-63" parent="SfMRhRDj13DmYwGKPPzU-61" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;1777299963898062_c&quot; class=&quot;text&quot; dir=&quot;auto&quot; data-copyable=&quot;true&quot; style=&quot;color: currentcolor;&quot;&gt;&lt;p&gt;Ведение API users&lt;/p&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="70" width="120" x="20" y="65" as="geometry" />
+          <mxGeometry height="50" width="120" x="20" y="80" as="geometry" />
         </mxCell>
         <mxCell id="SfMRhRDj13DmYwGKPPzU-64" edge="1" parent="SfMRhRDj13DmYwGKPPzU-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SfMRhRDj13DmYwGKPPzU-67">
           <mxGeometry relative="1" as="geometry">
