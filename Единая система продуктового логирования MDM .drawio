@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="MDM Logging 6.15 — Архитектура" vertex="1">
-          <mxGeometry height="30" width="800" x="80" y="20" as="geometry" />
+          <mxGeometry height="30" width="800" x="560" y="30" as="geometry" />
         </mxCell>
         <mxCell id="schema" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6" value="Артефакты JSON Schema (2020-12)&lt;br&gt;- log-schema.base.json&lt;br&gt;- log-schema.kafka.json&lt;br&gt;- log-schema.file.json&lt;br&gt;&lt;br&gt;Хранятся в CI" vertex="1">
           <mxGeometry height="140" width="320" x="80" y="80" as="geometry" />
