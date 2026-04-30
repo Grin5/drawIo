@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="yxf4RP_L1wYa110Znsxm">
-    <mxGraphModel dx="2881" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2572" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
             <mxPoint x="690" y="710" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6D8puHLwcEi16EmegXC-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka" vertex="1">
+        <mxCell id="P6D8puHLwcEi16EmegXC-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka/RabbitMQ" vertex="1">
           <mxGeometry height="60" width="120" x="707" y="670" as="geometry" />
         </mxCell>
         <mxCell id="P6D8puHLwcEi16EmegXC-37" edge="1" parent="1" source="P6D8puHLwcEi16EmegXC-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" target="P6D8puHLwcEi16EmegXC-36">
@@ -216,9 +216,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yVEPRnjxDkFHyxlPWroM-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Действия UMDM на запрос" vertex="1">
-          <mxGeometry height="310" width="170" x="440" y="330" as="geometry" />
+          <mxGeometry height="310" width="160" x="440" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="yVEPRnjxDkFHyxlPWroM-3" parent="yVEPRnjxDkFHyxlPWroM-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Отправка в очередь&lt;br&gt;Kafka" vertex="1">
+        <mxCell id="yVEPRnjxDkFHyxlPWroM-3" parent="yVEPRnjxDkFHyxlPWroM-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Отправка в очередь&lt;br&gt;Kafka/RabbitMQ" vertex="1">
           <mxGeometry height="70" width="120" x="20" y="220" as="geometry" />
         </mxCell>
         <mxCell id="yVEPRnjxDkFHyxlPWroM-2" parent="yVEPRnjxDkFHyxlPWroM-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Определения&lt;br&gt;очереди в&amp;nbsp;которую надо отправить&lt;br&gt;в kafka" vertex="1">
@@ -227,13 +227,11 @@
         <mxCell id="yVEPRnjxDkFHyxlPWroM-5" edge="1" parent="yVEPRnjxDkFHyxlPWroM-1" source="yVEPRnjxDkFHyxlPWroM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yVEPRnjxDkFHyxlPWroM-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yVEPRnjxDkFHyxlPWroM-8" edge="1" parent="1" source="yVEPRnjxDkFHyxlPWroM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="470" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="PWJ-7Pt0FM7spHuxCtFQ-1" edge="1" parent="1" source="yVEPRnjxDkFHyxlPWroM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yVEPRnjxDkFHyxlPWroM-2" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVEPRnjxDkFHyxlPWroM-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Формирования квитанции" vertex="1">
-          <mxGeometry height="70" width="120" x="465" y="380" as="geometry" />
+          <mxGeometry height="70" width="120" x="460" y="375" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
