@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="IxTK5_0Z_--iqzp3sZTN">
-    <mxGraphModel dx="2024" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2921" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,8 +149,8 @@
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-48" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="cFaOB7brkmCYMFzGHafB-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-70" y="79.96857142857138" as="sourcePoint" />
-            <mxPoint x="340" y="49.940000000000026" as="targetPoint" />
+            <mxPoint x="-240" y="79.96857142857138" as="sourcePoint" />
+            <mxPoint x="170" y="49.940000000000026" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-49" connectable="0" parent="cFaOB7brkmCYMFzGHafB-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Кнопка инициализация&amp;nbsp;&lt;br&gt;На основании ролевой модели" vertex="1">
@@ -159,43 +159,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="МДМ пуш файл" vertex="1">
-          <mxGeometry height="60" width="120" x="-190" y="109.97" as="geometry" />
+          <mxGeometry height="60" width="120" x="-360" y="109.97" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-51" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Тригер/квитанция&lt;br&gt;&amp;nbsp;в rabbitMQ" vertex="1">
-          <mxGeometry height="60" width="120" x="-20" y="109.97" as="geometry" />
+          <mxGeometry height="60" width="120" x="-190" y="109.97" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="s3" vertex="1">
-          <mxGeometry height="60" width="120" x="-190" y="214.97" as="geometry" />
+          <mxGeometry height="60" width="120" x="-360" y="214.97" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-62" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-56" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Кансамер вычитки" vertex="1">
-          <mxGeometry height="60" width="120" x="150" y="109.97" as="geometry" />
+          <mxGeometry height="60" width="120" x="-20" y="109.97" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-55" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Забор файла&lt;br&gt;fetch s3 proccesor NIFI" vertex="1">
-          <mxGeometry height="60" width="120" x="150" y="207.97" as="geometry" />
+          <mxGeometry height="60" width="120" x="-20" y="207.97" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-57" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-60" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Маршрутизатор&lt;br&gt;На основании&lt;br&gt;&quot;Сущность выбранная пользователем&quot;&amp;nbsp;" vertex="1">
-          <mxGeometry height="70" width="135" x="142.5" y="301.97" as="geometry" />
+          <mxGeometry height="70" width="135" x="-27.5" y="301.97" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-59" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-61" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Работа с файлом и данными&lt;br&gt;Подготовка к загрузке" vertex="1">
-          <mxGeometry height="60" width="120" x="150" y="404.97" as="geometry" />
+          <mxGeometry height="60" width="120" x="-20" y="404.97" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="системный пользователь с ролевой моделью потока миграции" vertex="1">
-          <mxGeometry height="60" width="120" x="150" y="497.97" as="geometry" />
+          <mxGeometry height="60" width="120" x="-20" y="497.97" as="geometry" />
         </mxCell>
         <mxCell id="4NJDjvfByzMAzfnGz_uV-6" edge="1" parent="1" source="4NJDjvfByzMAzfnGz_uV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4NJDjvfByzMAzfnGz_uV-5" value="">
           <mxGeometry relative="1" as="geometry" />
