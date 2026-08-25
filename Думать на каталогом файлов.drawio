@@ -9,8 +9,8 @@
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-11" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="cFaOB7brkmCYMFzGHafB-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1127" y="59.99857142857127" as="sourcePoint" />
-            <mxPoint x="1537" y="29.970000000000027" as="targetPoint" />
+            <mxPoint x="947" y="49.99857142857127" as="sourcePoint" />
+            <mxPoint x="1357" y="19.970000000000027" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-12" connectable="0" parent="cFaOB7brkmCYMFzGHafB-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Кнопка инициализация&amp;nbsp;&lt;br&gt;На основании ролевой модели" vertex="1">
@@ -19,51 +19,51 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="МДМ пуш файл" vertex="1">
-          <mxGeometry height="60" width="120" x="1007" y="90" as="geometry" />
+          <mxGeometry height="60" width="120" x="827" y="80" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-7" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Тригер/квитанция&lt;br&gt;&amp;nbsp;в rabbitMQ" vertex="1">
-          <mxGeometry height="60" width="120" x="1177" y="90" as="geometry" />
+          <mxGeometry height="60" width="120" x="997" y="80" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="s3" vertex="1">
-          <mxGeometry height="60" width="120" x="1007" y="195" as="geometry" />
+          <mxGeometry height="60" width="120" x="827" y="185" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-14" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cFaOB7brkmCYMFzGHafB-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Кансамер вычитки" vertex="1">
-          <mxGeometry height="60" width="120" x="1347" y="90" as="geometry" />
+          <mxGeometry height="60" width="120" x="1167" y="80" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-21" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Забор файла&lt;br&gt;fetch s3 proccesor NIFI" vertex="1">
-          <mxGeometry height="60" width="120" x="1347" y="300" as="geometry" />
+          <mxGeometry height="60" width="120" x="1167" y="290" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-18" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cFaOB7brkmCYMFzGHafB-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1407" y="330" as="targetPoint" />
+            <mxPoint x="1227" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Маршрутизатор по пользователю&lt;br&gt;У которого есть права брать на основании ролевой МДМ" vertex="1">
-          <mxGeometry height="90" width="120" x="1347" y="180" as="geometry" />
+          <mxGeometry height="90" width="120" x="1167" y="170" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-23" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-22" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Маршрутизатор&lt;br&gt;На основании&lt;br&gt;&quot;Сущность выбранная пользователем&quot;&amp;nbsp;" vertex="1">
-          <mxGeometry height="70" width="135" x="1339.5" y="390" as="geometry" />
+          <mxGeometry height="70" width="135" x="1159.5" y="380" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-26" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cFaOB7brkmCYMFzGHafB-24" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Работа с файлом и данными&lt;br&gt;Подготовка к загрузке" vertex="1">
-          <mxGeometry height="60" width="120" x="1347" y="490" as="geometry" />
+          <mxGeometry height="60" width="120" x="1167" y="480" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="системный пользователь с ролевой моделью потока миграции" vertex="1">
-          <mxGeometry height="60" width="120" x="1347" y="590" as="geometry" />
+          <mxGeometry height="60" width="120" x="1167" y="580" as="geometry" />
         </mxCell>
         <mxCell id="cFaOB7brkmCYMFzGHafB-27" edge="1" parent="1" source="cFaOB7brkmCYMFzGHafB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="cFaOB7brkmCYMFzGHafB-31">
           <mxGeometry relative="1" as="geometry">
